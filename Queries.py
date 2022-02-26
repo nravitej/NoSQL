@@ -41,10 +41,10 @@ for doc in result:
 
 
 
-#Drop a column from Mongo DB
+#Drop a column from Mongo DB,kindly execute this command consciously
 #resultu=country_set.update_many( { }, { '$unset': { "population": '' } } )
 
-#Add a column to the Mongo DB
+#Add a column to the Mongo DB,kindly execute this command consciously
 #resultu=country_set.update_many( { }, { '$set': { "population": 0 } } )
 
 #The less populated to Most populated
