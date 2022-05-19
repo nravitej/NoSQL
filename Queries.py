@@ -59,3 +59,5 @@ print("\n \n Get countries having u in name with more than 100000\n")
 result=country_set.find({"name":{"$regex":'u',"$options":'i' } ,"population":{'$gt':100000}})
 for doc in result:
     print("country:"+doc["name"],","+"population:",doc["population"])
+
+    
